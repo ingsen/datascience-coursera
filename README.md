@@ -15,10 +15,23 @@ Bioconductor
 Use a package
 * library(ggplot2)  accesses the package
 * search()
+* 
+
+Reading/Writing Data
+* read.table / write.table
+* read.csv
+* readLines / writeLines
+* source /  dump
+* dget / dput
+* load / save          ' binary
+* unserialize / serialize    ' binary
 
 
 ### Rtools
 http://cran.r-project.org/bin/windows/Rtools
+install.packages("devtools")
+library(devtools)
+
 
  
 
