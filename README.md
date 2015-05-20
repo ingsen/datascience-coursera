@@ -27,10 +27,24 @@ Reading/Writing Data
 * unserialize / serialize    ' binary
 
 
+
 ### Rtools
 http://cran.r-project.org/bin/windows/Rtools
 install.packages("devtools")
 library(devtools)
+
+
+### Data
+* class(data)
+* dim(data)
+* nrow(data)
+* ncol(data)
+* head(data,10)  ## first 10 lines
+* tail(data,10)  ## last 10 lines
+* table(data$column)
+* str(data)    ## structure of table.
+
+
 
 
  
